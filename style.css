@@ -114,7 +114,8 @@ p {
     display: grid;
     grid-template-columns: 50%;
     justify-content: center;
-    background-color: #C7D9D2;
+    align-content: center;
+    background-color: #D7D8D9;
     height: 100vh;
 }
 
@@ -125,5 +126,45 @@ p {
     align-items: center;
     width: 100%;
     padding: 20px;
+    border-radius: 5px;
+    background-color: #9BABBF;
     box-sizing: border-box;   
+}
+
+input[type=text], input[type=email],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+input[type=submit] {
+    background-color: #4D7A8C;
+    color: #F2F2F2;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    background-color: #85A6A6;  
+} 
+
+label {
+    font-family: Roboto;
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
 }

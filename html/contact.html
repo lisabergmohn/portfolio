@@ -23,25 +23,28 @@
               <li><a href="/Users/lisab/codecademy/portfolio/html/contact.html">Contact</a></li>
           </ul>
         </nav>
-          <form id="contactform" autocomplete="on">
-          <h1>Contact me</h1> 
-          <p>To get in touch with me, please fill out the form.</p>
-        
-          <label for="firstname">Your firstname: </label>
-          <input type="text" name="firstname" id="firstname">
 
-          <br><label for="lastname">Your lastname: </label>
-          <input type="text" name="lastname" id="lastname">
+        <div class="form-container">
+          
+          <form id="contactform">
+          
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" id="fname" placeholder="Your name...">
 
-          <br><label for="email">Your email: </label>
-          <input type="email" name="email" id="email" autocomplete="on">
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" id="lname" placeholder="Your last name...">
 
-          <br><label for="area">Your message: </label>
-          <textarea id="area" name="area" rows="10" cols="40"></textarea>
+          <label for="email">Email </label>
+          <input type="email" name="email" id="email" placeholder="Your email...">
 
-          <br><label for="submitbutton"></label>
+          <label for="subject">Subject </label>
+          <textarea id="subject" name="subject" style="height:200px" placeholder="Write something..."></textarea>
+
+          <label for="submitbutton"></label>
           <input type="submit" id="submitbutton">
           </form>
+        </div>
+
       </div>
     </div>
   </section>
