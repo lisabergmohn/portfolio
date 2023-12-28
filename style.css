@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 200vh;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #262626
+}
+
+nav {
+    text-align: right;
+    position: absolute;
+    top: 1.5%;
+    right: 1.5%;
+    color: #262626;
+}
+
+ul {
+    list-style-type: none;
+  
+}
+
+
+nav li {
+    font-family: Roboto;
+    font-size: 1.33vw;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    display: block;
+   
+}
+
+/*hero*/
+
+.hero-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.hero-content {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #C7D9D2;
+}
+
+.hero-img{
+    width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    font-family: Merriweather;
+    font-size: 2rem;
+    color: #262626;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 1rem;
+    color: #262626;
+   
+}
+
+/*project*/
+
+.project-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    background-color: #C7D9D2;
+    height: 100vh;
+}
+
+.project-content {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;   
+}
+
+#project-list {
+    list-style-type: circle;
+    font-family: Roboto;
+    font-size: 1rem;
+    color: #262626;
+}
+
+/*contact*/
+.contact-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    background-color: #C7D9D2;
+    height: 100vh;
+}
+
+.contact-content {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;   
+}
